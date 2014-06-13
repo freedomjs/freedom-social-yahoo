@@ -1,0 +1,9 @@
+{
+  "name": "Yahoo Social Provider",
+  "description": "",
+  "app": {
+    "script": ["socialprovider.js"]
+  },
+  "provides": [ "social" ],
+  "permissions": []
+}

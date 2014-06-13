@@ -1,0 +1,24 @@
+{
+  "name": "freedom-social-yahoo",
+  "description": "Yahoo Social provider for freedom.js",
+  "version": "0.0.1",
+  "homepage": "http://freedomjs.org",
+  "bugs": {
+    "url": "http://github.com/freedomjs/freedom-social-yahoo/issues",
+    "email": "freedom@cs.washington.edu"
+  },
+  "contributors": [
+    "Raymond Cheng <ryscheng@cs.washington.edu> (http://raymondcheng.net)",
+    "Will Scott <willscott@gmail.com> (https://wills.co.tt/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freedomjs/freedom-social-yahoo"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-download": "~0.2.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "freedom": "^0.5.0-rc1"
+  }
+}
