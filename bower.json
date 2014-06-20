@@ -1,0 +1,21 @@
+{
+  "name": "freedom-social-yahoo",
+  "version": "0.0.1",
+  "homepage": "https://github.com/freedomjs/freedom-social-yahoo",
+  "authors": [
+    "Raymond Cheng <ryscheng@cs.washington.edu>"
+  ],
+  "description": "Yahoo Social Provider",
+  "main": "src/social.yahoo.json",
+  "license": "Apache2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "hello": "~0.2.9"
+  }
+}

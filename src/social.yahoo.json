@@ -2,8 +2,17 @@
   "name": "Yahoo Social Provider",
   "description": "",
   "app": {
-    "script": ["socialprovider.js"]
+    "script": [
+      "socialprovider.js"
+    ]
   },
   "provides": [ "social" ],
-  "permissions": []
+  "permissions": [ "core.view" ],
+  "views": {
+    "loginpane": [
+      "login.html",
+      "../bower_components/hello/dist/hello.js",
+      "../bower_components/hello/src/modules/yahoo.js"
+    ]
+  }
 }
